@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CgMenuGridR } from "react-icons/cg";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Navbar = () => {
 
+  const [toggle, setToggle] = useState(false)
   const menuList=[
     {
         id:1,
@@ -40,7 +42,8 @@ const Navbar = () => {
         ))}
       </div>
       <div className='md:hidden'>
-        <CgMenuGridR className='text-[22px]'/>
+        { ! toggle ? <CgMenuGridR onClick={() => setToggle(!toggle)} className='text-[22px]'/>
+        : <IoIosArrowUp onClick={() => setToggle(!toggle)} className='text-[22px]'/> }
       </div>
     </div>
   )
