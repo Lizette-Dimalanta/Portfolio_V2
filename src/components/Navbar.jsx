@@ -1,4 +1,5 @@
 import React from 'react'
+import { CgMenuGridR } from "react-icons/cg";
 
 const Navbar = () => {
 
@@ -13,7 +14,7 @@ const Navbar = () => {
     },
     {
         id:1,
-        title:'WORK EXPERIENCE'
+        title:'EXPERIENCE'
     },
     {
         id:1,
@@ -31,12 +32,15 @@ const Navbar = () => {
         <h1 className='text-[30px] font-bold italic'>LIZETTE
         <span className='not-italic'> DIMALALNTA</span></h1>
       </div>
-      <div className='flex gap-4'>
+      <div className='hidden md:flex gap-4'>
         {menuList.map((item) => (
           <div>
             <h2 className='font-Roboto-Mono hover:underline cursor-pointer hover:animate-pulse'>{item.title}</h2>
           </div>
         ))}
+      </div>
+      <div className='md:hidden'>
+        <CgMenuGridR className='text-[22px]'/>
       </div>
     </div>
   )
