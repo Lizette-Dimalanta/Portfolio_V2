@@ -2,10 +2,16 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'DM-Sherif-Display': ['DM Sherif Display', 'Times New Roman'],
+        'Inter': ['Inter', 'Arial', 'Helvetica'],
+        'Roboto-Mono': ['Roboto Mono', 'Monospace']
+      }
+    },
   },
   plugins: [],
 }
