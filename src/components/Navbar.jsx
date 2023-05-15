@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className='hidden md:flex gap-4'>
         {menu.map((item) => (
           <div key={item.id}>
-            <h2 className='font-Roboto-Mono cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 animate-pulse'>{item.title}</h2>
+            <h2 className='font-Roboto-Mono cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>{item.title}</h2>
           </div>
         ))}
       </div>
