@@ -32,8 +32,8 @@ const Navbar = () => {
   return (
     <div className='flex items- justify-between'>
       <div>
-        <h1 className='text-[30px] font-bold italic'>LIZETTE
-        <span className='not-italic'> DIMALALNTA</span></h1>
+        <button className='text-[30px] font-bold italic p-0 bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
+        <span className='not-italic'> DIMALALNTA</span></button>
       </div>
       
       <div className='hidden md:flex gap-4'>
