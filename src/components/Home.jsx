@@ -11,7 +11,7 @@ const Home = () => {
           <p>Development,</p>
           <p>Humility.</p>
         </div>
-        <button className='font-Roboto-Mono absolute bottom-0 right-0 mb-4 mr-4'>
+        <button className='font-Roboto-Mono absolute bottom-0 right-0 mb-4 mr-4 font-bold italic p-0 bg-white hover:scale-105 transition-all ease-in-out duration-300 hover:animate-pulse'>
           Get to know me 
           <AiOutlineArrowDown  className='inline ml-1' />
         </button>
