@@ -30,23 +30,24 @@ const Navbar = () => {
 ]
 
   return (
-    <div className='flex items- justify-between'>
-      <div>
-        <button className='text-[30px] font-bold italic p-0 bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
-        <span className='not-italic'> DIMALALNTA</span></button>
-      </div>
+    <div className='flex place-items-center justify-between px-4 pt-3 pb-2'>
+        <button>
+          <h1 className='text-3xl font-bold italic bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
+            <span className='not-italic'> DIMALALNTA</span>
+          </h1>
+        </button>
       
       <div className='hidden md:flex gap-4'>
         {menu.map((item) => (
           <div key={item.id}>
-            <h2 className='font-Roboto-Mono cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>{item.title}</h2>
+            <h2 className='font-Roboto-Mono text-base cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>{item.title}</h2>
           </div>
         ))}
       </div>
 
       <div className='md:hidden'>
-        {! toggle ? <CgMenuGridR onClick={() => setToggle(!toggle)} className='text-[22px] cursor-pointer'/>
-        : <IoIosArrowUp onClick={() => setToggle(!toggle)} className='text-[22px] cursor-pointer'/> }
+        {! toggle ? <CgMenuGridR onClick={() => setToggle(!toggle)} className='text-lg cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'/>
+        : <IoIosArrowUp onClick={() => setToggle(!toggle)} className='text-lg cursor-pointer'/> }
         {toggle ? <MenuOverlay menu = {menu} /> : null}
       </div>
     </div>

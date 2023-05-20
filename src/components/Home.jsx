@@ -3,8 +3,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='flex border-slate-200 rounded border-2 mt-3 relative'>
-      <img src='../images/ProfileImage.jpeg' alt='Profile Image' className=''/>
+    <div className=''>
+      <img src='../images/ProfileImage.jpeg' alt='Profile Image' className='bg-local'/>
     </div>
   )
 }

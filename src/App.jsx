@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='px-8 md:px-14 lg:px-30 pb-10 pt-7'>
+      <div className=''>
         <Navbar />
         <Home />
       </div>
@@ -16,3 +16,5 @@ function App() {
 }
 
 export default App
+
+// px-8 md:px-14 lg:px-30 pb-10 pt-7
