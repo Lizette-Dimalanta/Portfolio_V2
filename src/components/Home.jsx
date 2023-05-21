@@ -3,11 +3,14 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className=''>
-      <img src='../images/ProfileImage.jpeg' alt='Profile Image' className='bg-local'/>
+    <div className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'../images/ProfileImage.jpeg'})` }}>
+      {/* <img src='../images/ProfileImage.jpeg' alt='Profile Image' className='bg-local'/> */}
     </div>
   )
 }
+
+// className='h-screen bg-cover bg-center'
+
 
 export default Home
 
