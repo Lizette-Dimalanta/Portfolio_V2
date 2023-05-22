@@ -1,12 +1,12 @@
 import { lazy, Suspense, useState } from 'react'
-import { AnimatePresence } from "framer-motion"
+import { AnimatePresence } from 'framer-motion'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
 import UseScrollToTop from './components/useScrollToTop'
 import './App.css'
 import Navbar from './components/Navbar'
 
-const Home = lazy(() => import('./components/Home'))
+const Home = lazy(() => import('./Pages/Home'))
 const About = lazy(() => import('./Pages/About'))
 const Experience = lazy(() => import('./Pages/Experience'))
 const Projects = lazy(() => import('./Pages/Projects'))
