@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
-import { CgMenuGridR } from "react-icons/cg";
-import { IoIosArrowUp } from "react-icons/io";
-import MenuOverlay from './MenuOverlay';
+import { CgMenuGridR } from "react-icons/cg"
+import { IoIosArrowUp } from "react-icons/io"
+import { IoPerson, IoHome } from "react-icons/io5"
+import { RiSuitcaseFill, RiContactsBook2Fill } from "react-icons/ri"
+import { FaCode } from "react-icons/fa"
+import MenuOverlay from './MenuOverlay'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
@@ -18,8 +21,37 @@ const Navbar = () => {
           </h1>
         </button>
       </div>
-      <div>
-        <CgMenuGridR onClick={handleToggle} className='text-lg cursor-pointer md:hidden flex gap-4 hover:scale-125 transition-all ease-in-out duration-300' />
+      <div className='md:hidden'>
+        <CgMenuGridR onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300' />
+        { 
+          toggle ? (
+            <div className='fixed w-full h-screen top-14 mt-8 left-0 backdrop-blur-lg flex flex-col justify-center items-center z-20'>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+                <IoHome size={20} />
+                <span className='pl-4'>HOME</span>
+              </a>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+                <IoPerson size={20} />
+                <span className='pl-4'>ABOUT</span>
+              </a>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+                <RiSuitcaseFill size={20} />
+                <span className='pl-4'>EXPERIENCE</span>
+              </a>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+                <FaCode size={20} />
+                <span className='pl-4'>PROJECTS</span>
+              </a>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+                <RiContactsBook2Fill size={20} />
+                <span className='pl-4'>CONTACT</span>
+              </a>
+            </div>
+          )
+          : (
+            <div></div>
+          )
+        }
       </div>
     </div>
   )
@@ -53,6 +85,7 @@ const Navbar = () => {
 
 export default Navbar
 
+{/* <CgMenuGridR onClick={handleToggle} className='text-lg cursor-pointer md:hidden flex gap-4 hover:scale-125 transition-all ease-in-out duration-300 */}
 
 
 // import React, { useState } from 'react'
