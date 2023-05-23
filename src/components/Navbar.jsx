@@ -25,26 +25,26 @@ const Navbar = () => {
         <CgMenuGridR onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300' />
         { 
           toggle ? (
-            <div className='fixed w-full h-screen top-14 mt-8 left-0 backdrop-blur-lg flex flex-col justify-center items-center z-20'>
-              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+            <div className='fixed w-full h-screen top-20 left-0 backdrop-blur-lg flex flex-col justify-center items-center z-20'>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
                 <IoHome size={20} />
-                <span className='pl-4'>HOME</span>
+                <span className='pl-3'>HOME</span>
               </a>
-              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
                 <IoPerson size={20} />
-                <span className='pl-4'>ABOUT</span>
+                <span className='pl-3'>ABOUT</span>
               </a>
-              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
                 <RiSuitcaseFill size={20} />
-                <span className='pl-4'>EXPERIENCE</span>
+                <span className='pl-3'>EXPERIENCE</span>
               </a>
-              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
                 <FaCode size={20} />
-                <span className='pl-4'>PROJECTS</span>
+                <span className='pl-3'>PROJECTS</span>
               </a>
-              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center cursor-pointer hover:scale-125 transition-all ease-in-out duration-300'>
+              <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
                 <RiContactsBook2Fill size={20} />
-                <span className='pl-4'>CONTACT</span>
+                <span className='pl-3'>CONTACT</span>
               </a>
             </div>
           )
