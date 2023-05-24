@@ -13,19 +13,33 @@ const Navbar = () => {
   }
 
   return (
-    <div className='border-white border-x-[20px] border-t-[10px] border-b-8 shadow-lg'>
+    <div className='border-white border-x-[25px] border-t-[10px] border-b-8 shadow-lg'>
       <div className='flex place-items-center justify-between'>
         <button>
           <h1 className='text-2xl font-bold italic bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
             <span className='not-italic'> DIMALALNTA</span>
           </h1>
         </button>
+        <div className='font-Roboto-Mono text-sm hidden md:flex gap-6'>
+          <a href='#main' className='cursor-pointer flex items-center gap-1.5 hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>
+            <IoPerson size={15} /> ABOUT
+          </a>
+          <a href='#main' className='cursor-pointer flex items-center gap-1.5 hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>
+            <RiSuitcaseFill size={16} /> EXPERIENCE
+          </a>
+          <a href='#main' className='cursor-pointer flex items-center gap-1.5 hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>
+            <FaCode size={16} /> PROJECTS
+          </a>
+          <a href='#main' className='cursor-pointer flex items-center gap-1.5 hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>
+            <RiContactsBook2Fill size={16} />CONTACT
+          </a>
+        </div>
       </div>
       <div className='md:hidden'>
       {toggle ? (
-          <IoIosArrowUp onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300' />
+          <IoIosArrowUp size={20} onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300' />
       ) : (
-        <CgMenuGridR onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300'/>
+        <CgMenuGridR size={20} onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300'/>
       )}
         {toggle && (
           <div className='fixed w-full h-screen top-12 left-0 backdrop-blur-lg flex flex-col justify-center items-center z-20'>
@@ -55,5 +69,11 @@ const Navbar = () => {
     </div>
   )
 }
+
+//         <div className='hidden md:flex gap-4 '>
+//           {menu.map((item) => (
+//             <div key={item.id}>
+//               <h2 className='font-Roboto-Mono text-base cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>{item.title}</h2>
+//             </div>
 
 export default Navbar
