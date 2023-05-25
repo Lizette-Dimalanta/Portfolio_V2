@@ -1,35 +1,36 @@
 import React from 'react'
+import { TypeAnimation } from 'react-type-animation'
 // import { AiOutlineArrowDown } from 'react-icons/ai';
 
 const Home = () => {
   return (
-    <div className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'../images/ProfileImage.jpeg'})` }}>
-      {/* <img src='../images/ProfileImage.jpeg' alt='Profile Image' className='bg-local'/> */}
+    <div id='main' className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'../images/ProfileImage.jpeg'})` }}>
+      <div>
+        <h2 className='font-DM-Sherif-Display italic tracking-wide text-white font-semibold flex text-5xl place-content-center pt-48 sm:text-6xl sm:place-content-start sm:pl-28 sm:pt-64'>
+          <TypeAnimation
+          sequence={[
+            'Passion.', // Types 'One'
+            2000, // Waits 1s
+            'Creativity.', // Deletes 'One' and types 'Two'
+            2000, // Waits 2s
+            'Development.', // Types 'One'
+            2000, // Waits 1s
+            'Humility.', // Types 'One'
+            2000, // Waits 1s
+          ]}
+          wrapper='div'
+          cursor={true}
+          repeat={Infinity}
+          style={{ display: 'inline-block' }}
+          />
+        </h2>
+      </div>
     </div>
   )
 }
 
-// className='h-screen bg-cover bg-center'
+{/* <div id='main' className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'../images/ProfileImage.jpeg'})` }}></div> */}
 
+{/* <img src='../images/ProfileImage.jpeg' alt='Profile Image' className='w-full h-screen object-cover'/> */}
 
 export default Home
-
-// const Home = () => {
-//   return (
-//     <div className='flex border-black border-2 mt-3 relative'>
-//         <img src='../images/ProfileImage.jpeg' alt='Profile Image' className='w-1/2 h-auto items-start object-cover'/>
-//         <div className='text-left font-Inter mt-5 ml-5 sm:text-3xl sm:mt-14 sm:ml-14 md:text-4xl md:m-20 lg:text-5xl lg:m-28 xl:text-5xl xl:m-36'>
-//           <p>Passion,</p>
-//           <p>Creativity,</p>
-//           <p>Development,</p>
-//           <p>Humility.</p>
-//         </div>
-//         <button className='font-Roboto-Mono sm:text-xs sm:ml-14 md:text-4xl absolute bottom-0 right-0 mb-4 mr-4 font-bold italic p-0 bg-white hover:scale-105 transition-all ease-in-out duration-300 hover:animate-pulse'>
-//           Get to know me 
-//           <AiOutlineArrowDown  className='inline ml-1' />
-//         </button>
-//     </div>
-//   )
-// }
-
-// export default Home

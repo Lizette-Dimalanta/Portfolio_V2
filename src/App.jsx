@@ -6,7 +6,7 @@ import UseScrollToTop from './components/useScrollToTop'
 import './App.css'
 import Navbar from './components/Navbar'
 
-const Home = lazy(() => import('./Pages/Home'))
+const Home = lazy(() => import('./components/Home'))
 const About = lazy(() => import('./Pages/About'))
 const Experience = lazy(() => import('./Pages/Experience'))
 const Projects = lazy(() => import('./Pages/Projects'))

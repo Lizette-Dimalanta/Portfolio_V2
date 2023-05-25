@@ -16,11 +16,11 @@ const Navbar = () => {
     <div className='border-white border-x-[25px] border-t-[10px] border-b-8 shadow-lg'>
       <div className='flex place-items-center justify-between'>
         <button>
-          <h1 className='text-2xl font-bold italic bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
+          <h1 className='text-2xl md:text-3xl border-t-[4px] border-white font-bold italic bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
             <span className='not-italic'> DIMALALNTA</span>
           </h1>
         </button>
-        <div className='font-Roboto-Mono text-sm hidden md:flex gap-6'>
+        <div className='font-Roboto-Mono text-sm hidden md:flex gap-5'>
           <a href='#main' className='cursor-pointer flex items-center gap-1.5 hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>
             <IoPerson size={15} /> ABOUT
           </a>
