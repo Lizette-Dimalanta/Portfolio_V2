@@ -1,5 +1,8 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
+import { MdContactPage } from 'react-icons/md'
+import { GrLinkedin } from "react-icons/gr"
+import { VscGithubInverted } from "react-icons/vsc"
 // import { AiOutlineArrowDown } from 'react-icons/ai';
 
 const Home = () => {
@@ -25,9 +28,16 @@ const Home = () => {
           />
         </h2>
       </div>
+      <div className='flex pt-48 pl-28'>
+          <MdContactPage size={20} className='cursor-pointer rounded-full shadow-lg bg-white' />
+          <GrLinkedin size={20} className='cursor-pointer rounded-full shadow-lg bg-white' />
+          <VscGithubInverted size={20} className='cursor-pointer rounded-full shadow-lg bg-white' />
+        </div>
     </div>
   )
 }
+
+// place-content-end pr-24 pt-48
 
 {/* <div id='main' className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'../images/ProfileImage.jpeg'})` }}></div> */}
 
