@@ -28,19 +28,22 @@ const Home = () => {
           />
         </h2>
       </div>
-      <div className='flex pt-48 pl-28'>
-          <MdContactPage size={20} className='cursor-pointer rounded-full shadow-lg bg-white' />
-          <GrLinkedin size={20} className='cursor-pointer rounded-full shadow-lg bg-white' />
-          <VscGithubInverted size={20} className='cursor-pointer rounded-full shadow-lg bg-white' />
+      <div className='inline-flex flex-col pt-48 pl-28'>
+        <a href='' className='cursor-pointer flex items-center rounded-md shadow-lg bg-white m-2 p-2'>
+        <MdContactPage size={25} />
+        <span className='pl-3 inline-block'>Resume</span>
+        </a>
+        <a href='' className='cursor-pointer flex items-center rounded-md shadow-lg bg-white m-2 p-2'>
+        <GrLinkedin size={20} />
+        <span className='pl-3 inline-block'>LinkedIn</span>
+        </a>
+        <a href='' className='cursor-pointer flex items-center rounded-md shadow-lg bg-white m-2 p-2'>
+        <VscGithubInverted size={20} />
+        <span className='pl-3 inline-block'>GitHub</span>
+        </a>
         </div>
     </div>
   )
 }
-
-// place-content-end pr-24 pt-48
-
-{/* <div id='main' className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'../images/ProfileImage.jpeg'})` }}></div> */}
-
-{/* <img src='../images/ProfileImage.jpeg' alt='Profile Image' className='w-full h-screen object-cover'/> */}
 
 export default Home
