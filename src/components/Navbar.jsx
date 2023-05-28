@@ -43,23 +43,23 @@ const Navbar = () => {
       )}
         {toggle && (
           <div className='fixed w-full h-screen top-12 left-0 backdrop-blur-lg flex flex-col justify-center items-center z-20'>
-            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-md shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
               <IoHome size={20} />
               <span className='pl-3'>HOME</span>
             </a>
-            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-md shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
               <IoPerson size={20} />
               <span className='pl-3'>ABOUT</span>
             </a>
-            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-md shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
               <RiSuitcaseFill size={20} />
               <span className='pl-3'>EXPERIENCE</span>
             </a>
-            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-md shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
               <FaCode size={20} />
               <span className='pl-3'>PROJECTS</span>
             </a>
-            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='#main' className='font-Roboto-Mono text-base w-[75%] flex justify-center items-center rounded-md shadow-lg bg-white m-2 p-2 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300'>
               <RiContactsBook2Fill size={20} />
               <span className='pl-3'>CONTACT</span>
             </a>
