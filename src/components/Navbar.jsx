@@ -39,29 +39,29 @@ const Navbar = () => {
       {toggle ? (
           <IoIosArrowUp size={20} onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300' />
       ) : (
-        <CgMenuGridR size={20} onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300'/>
+        <CgMenuGridR size={25} onClick={handleToggle} className='text-lg cursor-pointer absolute top-4 right-4 hover:scale-125 transition-all ease-in-out duration-300'/>
       )}
         {toggle && (
-          <div className='fixed w-full h-screen top-[54px] left-0 backdrop-blur-lg flex flex-col justify-center items-end z-20 pb-96 pr-4'>
-            <a href='' className='text-white cursor-pointer bg-slate-800/30 rounded-sm px-2 flex items-center m-2 p-2 hover:scale-110 transition-all ease-in-out duration-300'>
+          <div className='fixed w-full h-screen top-[54px] left-0 backdrop-blur-lg flex flex-col items-end z-20 pt-4 pr-4'>
+            <a href='' className='text-white cursor-pointer bg-slate-800/40 rounded-sm px-2 flex items-center m-1.5 p-1.5 hover:scale-110 transition-all ease-in-out duration-300'>
+              <span className='pr-3 font-Roboto-Mono font-semibold text-2xl'>HOME</span>
               <IoHome size={20} />
-              <span className='pl-3 font-Roboto-Mono font-semibold text-2xl'>HOME</span>
             </a>
-            <a href='' className='text-white cursor-pointer bg-slate-800/30 rounded-sm px-2 flex items-center m-2 p-2 hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='' className='text-white cursor-pointer bg-slate-800/40 rounded-sm px-2 flex items-center m-1.5 p-1.5 hover:scale-110 transition-all ease-in-out duration-300'>
+              <span className='pr-3 font-Roboto-Mono font-semibold text-2xl'>ABOUT</span>
               <IoPerson size={20} />
-              <span className='pl-3 font-Roboto-Mono font-semibold text-2xl'>ABOUT</span>
             </a>
-            <a href='' className='text-white cursor-pointer bg-slate-800/30 rounded-sm px-2 flex items-center m-2 p-2 hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='' className='text-white cursor-pointer bg-slate-800/40 rounded-sm px-2 flex items-center m-1.5 p-1.5 hover:scale-110 transition-all ease-in-out duration-300'>
+              <span className='pr-3 font-Roboto-Mono font-semibold text-2xl'>EXPERIENCE</span>
               <RiSuitcaseFill size={20} />
-              <span className='pl-3 font-Roboto-Mono font-semibold text-2xl'>EXPERIENCE</span>
             </a>
-            <a href='' className='text-white cursor-pointer bg-slate-800/30 rounded-sm px-2 flex items-center m-2 p-2 hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='' className='text-white cursor-pointer bg-slate-800/40 rounded-sm px-2 flex items-center m-1.5 p-1.5 hover:scale-110 transition-all ease-in-out duration-300'>
+              <span className='pr-3 font-Roboto-Mono font-semibold text-2xl'>PROJECTS</span>
               <FaCode size={20} />
-              <span className='pl-3 font-Roboto-Mono font-semibold text-2xl'>PROJECTS</span>
             </a>
-            <a href='' className='text-white cursor-pointer bg-slate-800/30 rounded-sm px-2 flex items-center m-2 p-2 hover:scale-110 transition-all ease-in-out duration-300'>
+            <a href='' className='text-white cursor-pointer bg-slate-800/40 rounded-sm px-2 flex items-center m-1.5 p-1.5 hover:scale-110 transition-all ease-in-out duration-300'>
+              <span className='pr-3 font-Roboto-Mono font-semibold text-2xl'>CONTACT</span>
               <RiContactsBook2Fill size={20} />
-              <span className='pl-3 font-Roboto-Mono font-semibold text-2xl'>CONTACT</span>
             </a>
           </div>
         )}
