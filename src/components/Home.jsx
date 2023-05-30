@@ -8,7 +8,7 @@ import { VscGithubInverted } from "react-icons/vsc"
 const Home = () => {
   return (
     <div id='home' className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'../images/ProfileImage.jpeg'})` }}>
-      <div className='w-full h-screen absolute top-15 left-0 bg-slate-800/20'>
+      <div className='w-full h-screen absolute top-15 left-0 bg-stone-800/20'>
       <div>
         <h2 className='font-Inter text-white tracking-wide font-semibold flex text-3xl sm:text-4xl pt-32 sm:pt-40 pl-4 place-content-start sm:pl-24'>
           I am a
@@ -37,15 +37,15 @@ const Home = () => {
       </div>
       <div className='font-Roboto-Mono font-semibold text-white text-2xl flex justify-center items-center sm:place-content-end sm:items-end whitespace-nowrap flex-col pt-52 sm:pt-36 sm:pr-24'>
         <div className='hover:scale-110 transition-all ease-in-out duration-300'>
-          <a href='' className='cursor-pointer tracking-wide bg-slate-800/50 rounded-sm px-2 m-1 p-1'> RESUME
+          <a href='' className='cursor-pointer tracking-wide bg-stone-800/50 rounded-sm px-2 m-1 p-1'> RESUME
           </a>
         </div>
         <div className='pt-5 hover:scale-110 transition-all ease-in-out duration-300'>
-          <a href='' className='cursor-pointer tracking-wide bg-slate-800/50 rounded-sm px-2 m-1 p-1'> LINKEDIN
+          <a href='' className='cursor-pointer tracking-wide bg-stone-800/50 rounded-sm px-2 m-1 p-1'> LINKEDIN
           </a>
         </div>
         <div className='pt-5 hover:scale-110 transition-all ease-in-out duration-300'>
-          <a href='' className='cursor-pointer tracking-wide bg-slate-800/50 rounded-sm px-2 m-1 p-1'> GITHUB
+          <a href='' className='cursor-pointer tracking-wide bg-stone-800/50 rounded-sm px-2 m-1 p-1'> GITHUB
           </a>
         </div>
       </div>
