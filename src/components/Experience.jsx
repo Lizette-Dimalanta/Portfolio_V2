@@ -4,31 +4,52 @@ import ExperienceItem from './ExperienceItem'
 const data = [
   {
     year: 2023,
-    company: 'VICTORIAN BUILDING AUTHORITY -',
-    position: 'Data Entry Officer',
+    company: '/ Victorian Building Authority',
+    position: 'DATA ENTRY OFFICER',
     duration: 'Present',
-    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing'
+    details: [
+      '• Delivering practitioner registration administration to support the licensing and registration scheme for building and plumbing practitioners within Victoria.',
+      '• Creating and maintaining database records for all new applicants and existing practitioners.',
+      '• Ensuring activities are carried out in line with relevant legislative framework in accordance with operational guidelines.',
+      '• Providing assistance with electronic and telephone enquiries from external and internal stakeholders.'
+    ]
   },
   {
     year: 2021,
-    company: 'MONGER TECH -',
-    position: 'Administrator',
+    company: '/ Monger Tech',
+    position: 'ADMINISTRATOR',
     duration: '8 mos',
-    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing'
+    details: [
+      '• Maintained business operations in an IoT, SaaS and hybrid B2B/B2C startup setting.',
+      '• Oversaw organisational cash flow, budgets, receipts, wages and reports.',
+      '• Developed responsive and data-driven UX/UI designs using high-level prototypes and mockups.',
+      '• Conducted usability testing and research on SEO and user personas.',
+      '• Creation of e-commerce sites and social media content.'
+    ]
   },
   {
     year: 2018,
-    company: 'COLES -',
-    position: 'Acting Dairy Manager',
+    company: '/ Coles',
+    position: 'ACTING DAIRY MANAGER',
     duration: '3 yrs 2 mos',
-    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing'
+    details: [
+      '• Primary support for transitioning management and understaffed roles throughout the duration of COVID-19.',
+      '• Proficiency in managing 6 departments across several Gold Coast and Melbourne locations.',
+      '• Specialised in POS, grocery and cold-chain inventory management.',
+      '• Promoted as a Customer Service Supervisor within the initial 3 months of employment.'
+    ]
   },
   {
     year: 2015,
-    company: 'MCDONALDS -',
-    position: 'Crew Member',
+    company: '/ McDonalds',
+    position: 'CREW MEMBER',
     duration: '3 yrs 8 mos',
-    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing'
+    details: [
+      '• Developed customer service and time management skills in a dynamic and fast-paced environment.',
+      '• Maintained and prioritised smooth customer traffic within unpredictable timeframes.',
+      '• Provided additional support during the Commonwealth Games and similar large-scale events previously held in the Gold Coast.',
+      '• Completed a Certificate III in Retail Services.'
+    ]
   }
 ]
 
@@ -38,7 +59,6 @@ const Experience = () => {
       <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-stone-900 text-start p-4 '>
         EXPERIENCE
       </h1>
-      <div className='border-2 border-black p-4'>
         {data.map((item, itemid) => (
           <ExperienceItem 
             key={itemid} 
@@ -48,7 +68,6 @@ const Experience = () => {
             duration={item.duration}
             details={item.details} />
         ))}
-      </div>
     </div>
   )
 }
