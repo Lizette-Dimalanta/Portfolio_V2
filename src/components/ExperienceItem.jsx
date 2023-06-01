@@ -13,7 +13,7 @@ const ExperienceItem = ({ year, company, position, duration, details }) => {
           </p>
           <div className='pt-2'>
             {details.map((detail, i) => (
-                <p key={i} className='flex text-start font-Inter tracking-wide text-slate-500 text-sm p-1'>
+                <p key={i} className='flex text-start font-Inter tracking-wide text-slate-800 text-sm p-1'>
                     {detail}
                 </p>
             ))}

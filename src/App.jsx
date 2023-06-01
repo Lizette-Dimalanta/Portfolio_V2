@@ -23,6 +23,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <About />
       <Experience />
     </>
     // <AnimatePresence>
