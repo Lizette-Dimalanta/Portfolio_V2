@@ -4,20 +4,20 @@ import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, Ac
 const About = () => {
 
   return (
-    <div id='About' className='max-w-[1040px] m-auto'>
-      <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-slate-900 text-start underline underline-offset-8 py-10 pl-1'>
+    <div id='About' className='max-w-[1040px] m-auto px-5'>
+      <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-slate-900 text-start underline underline-offset-8 py-10 sm:pl-1'>
         ABOUT
       </h1>
-      <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 w-1/2 leading-loose pb-5'>
+      <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 w-screen md:w-1/2 leading-loose pb-5 pr-10'>
         A passionate, driven and explorative thinker - fuelled by curiosity in discovering innovative solutions through the combination of business, design, technological and humanitarian perspectives. 
       </p>
       <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-slate-700 text-start py-3'>
         Find out more:
       </h2>
-      <Accordion allowZeroExpanded className='text-start w-1/2'>
+      <Accordion allowZeroExpanded className='text-start w-screen md:w-1/2 pr-10'>
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md border-[1px] border-slate-200 rounded-md'>
+            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md border-[1px] border-slate-200 rounded-md shadow-sm'>
               ▾ "How would your friends describe you?"
             </AccordionItemButton>
           </AccordionItemHeading>
@@ -38,7 +38,7 @@ const About = () => {
         </AccordionItem>
         <AccordionItem className='pt-2'>
           <AccordionItemHeading>
-            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md'>
+            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md shadow-sm'>
               ▾ "What are your interests?"
             </AccordionItemButton>
           </AccordionItemHeading>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExperienceItem = ({ year, company, position, duration, details }) => {
   return (
-    <ol className='flex flex-col md:flex-row relative border-l border-slate-300'>
+    <ol className='flex flex-col md:flex-row relative border-l border-slate-300 px-5'>
       <li className='mb-10 ml-4'>
           <div className='absolute w-3 h-3 bg-slate-300 rounded-full mt-1.5 -left-1.5 border-white'/>
           <p className='font-Roboto-Mono flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
