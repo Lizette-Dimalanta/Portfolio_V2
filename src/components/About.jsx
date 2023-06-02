@@ -8,16 +8,16 @@ const About = () => {
       <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-slate-900 text-start underline underline-offset-8 py-10 pl-1'>
         ABOUT
       </h1>
-      <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 w-1/2 leading-loose'>
+      <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 w-1/2 leading-loose pb-5'>
         A passionate, driven and explorative thinker - fuelled by curiosity in discovering innovative solutions through the combination of business, design, technological and humanitarian perspectives. 
       </p>
-      <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-slate-600 text-start py-3 pl-1'>
+      <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-slate-700 text-start py-3'>
         Find out more:
       </h2>
-      <Accordion allowZeroExpanded className='text-start'>
+      <Accordion allowZeroExpanded className='text-start w-1/2'>
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono font-semibold text-white text-lg bg-slate-400 rounded-md'>
+            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md border-[1px] border-slate-200 rounded-md'>
               ▾ "How would your friends describe you?"
             </AccordionItemButton>
           </AccordionItemHeading>
@@ -38,13 +38,13 @@ const About = () => {
         </AccordionItem>
         <AccordionItem className='pt-2'>
           <AccordionItemHeading>
-            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono font-semibold text-white text-lg bg-slate-400 rounded-md'>
+            <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md'>
               ▾ "What are your interests?"
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className='px-4 py-2'>
-            <p className='font-Inter text-start tracking-wide text-slate-600 pl-4 pt-2'> 
-            I'm a huge nerd for art, music, technology, philosophy and plants! You'll often find me exploring random topics or trying something new!
+            <p className='font-Inter text-start text-sm tracking-wide text-slate-800 pl-4 leading-loose'> 
+            I'm a huge nerd for philosophy, music, games, tech and plants! You'll often find me exploring random topics or trying something new.
             </p>
           </AccordionItemPanel>
         </AccordionItem>
