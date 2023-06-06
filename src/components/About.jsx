@@ -1,5 +1,8 @@
 import React from 'react'
 import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, AccordionItemPanel } from 'react-accessible-accordion'
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+// import AboutCarousel from './AboutCarousel'
 
 const About = () => {
 
@@ -14,6 +17,7 @@ const About = () => {
       <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-slate-700 text-start py-3'>
         Find out more:
       </h2>
+
       <Accordion allowZeroExpanded className='text-start w-screen md:w-1/2 pr-10'>
         <AccordionItem>
           <AccordionItemHeading>
@@ -49,6 +53,31 @@ const About = () => {
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
+
+      <div className='md:w-1/2'>
+        <Carousel
+          showStatus={false}
+          showIndicators={true}
+          showThumbs={false}
+          infiniteLoop={true}
+          autoPlay={true}
+          interval={3000}
+          className="rounded-lg overflow-hidden ml-auto"
+        >
+          <div>
+            <img src="hike.jpeg" alt="Hiking" />
+          </div>
+          <div>
+            <img src="family.jpeg" alt="Family" />
+          </div>
+          <div>
+            <img src="music.JPG" alt="Music" />
+          </div>
+          <div>
+            <img src="coding1.JPG" alt="Coding" />
+          </div>
+        </Carousel>
+      </div>
     </div>
   )
 }
