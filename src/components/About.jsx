@@ -67,19 +67,19 @@ const About = () => {
           className="overflow-hidden"
         >
           <div>
-            <img src="../public/images/Hiking.jpeg" alt="Hiking" />
+            <img src="/images/Hiking.jpeg" alt="Hiking" />
           </div>
           <div>
-            <img src="../public/images/Coding2.jpeg" alt="Coding2" />
+            <img src="/images/Coding2.jpeg" alt="Coding2" />
           </div>
           <div>
-            <img src="../public/images/CA.jpg" alt="Coder Academy" />
+            <img src="/images/CA.jpg" alt="Coder Academy" />
           </div>
           <div>
-            <img src="../public/images/Music.jpg" alt="Music" />
+            <img src="/images/Music.jpg" alt="Music" />
           </div>
           <div>
-            <img src="../public/images/Coding1.JPG" alt="Coding1" />
+            <img src="/images/Coding1.JPG" alt="Coding1" />
           </div>
         </Carousel>
       </div>
