@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Experience from './components/Experience'
 import About from './components/About'
+import Quote from './components/Quote'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Quote />
       <Experience />
     </div>
     // <AnimatePresence>
