@@ -5,9 +5,12 @@ import { GrLinkedin } from "react-icons/gr"
 import { VscGithubInverted } from "react-icons/vsc"
 // import { AiOutlineArrowDown } from 'react-icons/ai';
 
+{/* <div id='home' className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'public/images/ProfileImage.png'})` }}></div> */}
+
 const Home = () => {
   return (
-    <div id='home' className='bg-fixed h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'public/images/ProfileImage.png'})` }}>
+    <div>
+      <img src='public/images/ProfileImage.png' alt='background image' className='w-full h-full absolute left-0 object-fixed object-cover object-center'/>
       <div className='w-full h-screen absolute top-15 left-0 bg-slate-800/20'>
       <div>
         <h2 className='font-Inter text-white tracking-wide font-semibold flex text-3xl sm:text-4xl pt-32 sm:pt-40 pl-6 place-content-start sm:pl-24'>
