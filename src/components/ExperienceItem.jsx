@@ -1,6 +1,8 @@
 import React from 'react'
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
-const ExperienceItem = ({ year, company, position, duration, details }) => {
+const ExperienceItem = ({ year, company, position, duration, details, carousel }) => {
   return (
     <ol className='flex flex-col md:flex-row relative border-l border-slate-300 px-5'>
       <li className='mb-10 ml-4'>
@@ -17,6 +19,20 @@ const ExperienceItem = ({ year, company, position, duration, details }) => {
                     {detail}
                 </p>
             ))}
+          </div>
+          <div className='overflow-hidden md:w-1/2'>
+            { carousel ? (
+              <Carousel
+              >
+                {carousel.map((slide, slideIndex) => (
+                  <div key={slideIndex}>
+                    <img src={slide.image} alt={slide.caption} />
+                  </div>
+                ))}
+              </Carousel>
+            ) : (
+              ''
+            )}
           </div>
       </li>
     </ol>

@@ -1,5 +1,6 @@
 import React from 'react'
 import ExperienceItem from './ExperienceItem'
+import { Carousel } from 'react-responsive-carousel'
 
 const data = [
   {
@@ -25,6 +26,20 @@ const data = [
       '• Developed responsive and data-driven UX/UI designs using high-level prototypes and mockups.',
       '• Conducted usability testing and research on SEO and user personas.',
       '• Creation of e-commerce sites and social media content.'
+    ],
+    carousel: [
+      {
+        image: '/images/MongerTechOffice.jpg',
+        caption: 'Monger Tech Office'
+      },
+      {
+        image: '/images/MongerTechAdvertisement.png',
+        caption: 'Monger Tech Advertisement'
+      },
+      {
+        image: '/images/MongerTrackers.png',
+        caption: 'Monger Trackers'
+      }
     ]
   },
   {
@@ -37,6 +52,16 @@ const data = [
       '• Proficiency in managing 6 departments across several Gold Coast and Melbourne locations.',
       '• Specialised in POS, grocery and cold-chain inventory management.',
       '• Promoted as a Customer Service Supervisor within the initial 3 months of employment.'
+    ],
+    carousel: [
+      {
+        image: '/images/Coles1.JPG',
+        caption: 'Coles Image 1'
+      },
+      {
+        image: '/images/Coles2.JPG',
+        caption: 'Coles Image 2'
+      }
     ]
   },
   {
@@ -60,13 +85,24 @@ const Experience = () => {
         EXPERIENCE
       </h1>
         {data.map((item, itemid) => (
-          <ExperienceItem 
-            key={itemid} 
-            year={item.year} 
-            company={item.company} 
-            position={item.position} 
-            duration={item.duration}
-            details={item.details} />
+          <div key={itemid}>
+            <ExperienceItem 
+              year={item.year} 
+              company={item.company} 
+              position={item.position} 
+              duration={item.duration}
+              details={item.details} 
+            />
+            {item.carousel && (
+              <Carousel>
+                {item.carousel.map((slide, slideIndex) => (
+                  <div key={slideIndex}>
+                    <img src={slide.image} alt={slide.caption} />
+                  </div>
+                ))}
+              </Carousel>
+            )}
+          </div>
         ))}
     </div>
   )
