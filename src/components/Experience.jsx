@@ -92,16 +92,8 @@ const Experience = () => {
               position={item.position} 
               duration={item.duration}
               details={item.details} 
+              carousel={item.carousel}
             />
-            {item.carousel && (
-              <Carousel>
-                {item.carousel.map((slide, slideIndex) => (
-                  <div key={slideIndex}>
-                    <img src={slide.image} alt={slide.caption} />
-                  </div>
-                ))}
-              </Carousel>
-            )}
           </div>
         ))}
     </div>

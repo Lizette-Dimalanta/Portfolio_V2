@@ -20,9 +20,16 @@ const ExperienceItem = ({ year, company, position, duration, details, carousel }
                 </p>
             ))}
           </div>
-          <div className='overflow-hidden md:w-1/2'>
-            { carousel ? (
+          <div>
+          {carousel && (
               <Carousel
+                showStatus={false}
+                showIndicators={true}
+                showThumbs={false}
+                infiniteLoop={true}
+                autoPlay={true}
+                interval={3000}
+                className='md:w-2/5 flex pt-5'
               >
                 {carousel.map((slide, slideIndex) => (
                   <div key={slideIndex}>
@@ -30,8 +37,6 @@ const ExperienceItem = ({ year, company, position, duration, details, carousel }
                   </div>
                 ))}
               </Carousel>
-            ) : (
-              ''
             )}
           </div>
       </li>
