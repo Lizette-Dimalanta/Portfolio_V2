@@ -64,7 +64,7 @@ const About = () => {
           infiniteLoop={true}
           autoPlay={true}
           interval={3000}
-          className="overflow-hidden"
+          className="overflow-hidden rounded-lg"
         >
           <div>
             <img src="/images/Hiking.jpeg" alt="Hiking" />
