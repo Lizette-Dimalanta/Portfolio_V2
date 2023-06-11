@@ -81,6 +81,9 @@ const About = () => {
           <div>
             <img src="/images/Coding1.JPG" alt="Coding1" />
           </div>
+          <div>
+            <img src="/images/Family.jpeg" alt="Family" />
+          </div>
         </Carousel>
       </div>
     </div>

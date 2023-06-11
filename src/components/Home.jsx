@@ -10,10 +10,10 @@ import { VscGithubInverted } from "react-icons/vsc"
 const Home = () => {
   return (
     <div className='h-screen'>
-      <img src='/images/ProfileImage.png' alt='background image' className='w-full h-full absolute object-fixed object-cover object-center'/>
-      <div className='w-full h-screen absolute top-15 left-0 bg-slate-800/20'>
+      <img src='/images/HeroBackground.jpeg' alt='background image' className='w-full h-full absolute object-fixed object-cover object-center'/>
+      <div className='w-full h-full absolute top-15 left-0 bg-slate-800/30'>
       <div>
-        <h2 className='font-Inter text-white tracking-wide font-semibold flex text-3xl sm:text-4xl pt-32 sm:pt-40 pl-6 place-content-start sm:pl-24'>
+        <h2 className='font-Roboto-Mono text-white tracking-wide font-semibold flex text-3xl sm:text-5xl pt-32 sm:pt-40 pl-6 place-content-start sm:pl-24'>
           I am a
         </h2>
         <h2 className='font-DM-Sherif-Display italic tracking-wide text-white font-semibold flex text-5xl pt-5 sm:text-8xl place-content-start pl-6 sm:pl-24 sm:pt-5'>
@@ -34,7 +34,7 @@ const Home = () => {
           style={{ display: 'inline-block' }}
           />
         </h2>
-        <h2 className='font-Inter text-white tracking-wide font-semibold flex text-3xl sm:text-5xl place-content-start sm:pl-24 pt-5 pl-6 sm:pt-6' > 
+        <h2 className='font-Roboto-Mono text-white font-semibold flex text-3xl sm:text-5xl place-content-start sm:pl-24 pt-5 pl-6 sm:pt-6' > 
           Full-Stack Developer.
         </h2>
       </div>

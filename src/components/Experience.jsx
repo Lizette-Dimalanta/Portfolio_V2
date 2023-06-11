@@ -7,7 +7,7 @@ const data = [
     year: 2023,
     company: '/ Victorian Building Authority',
     position: 'DATA ENTRY OFFICER',
-    duration: 'Present',
+    duration: '[ Mar 2023 - Present ]',
     details: [
       '• Delivering practitioner registration administration to support the licensing and registration scheme for building and plumbing practitioners within Victoria.',
       '• Creating and maintaining database records for all new applicants and existing practitioners.',
@@ -19,7 +19,7 @@ const data = [
     year: 2021,
     company: '/ Monger Tech',
     position: 'ADMINISTRATOR',
-    duration: '8 mos',
+    duration: '[ Oct 2021 - May 2022 ]',
     details: [
       '• Maintained business operations in an IoT, SaaS and hybrid B2B/B2C startup setting.',
       '• Oversaw organisational cash flow, budgets, receipts, wages and reports.',
@@ -46,7 +46,7 @@ const data = [
     year: 2018,
     company: '/ Coles',
     position: 'ACTING DAIRY MANAGER',
-    duration: '3 yrs 2 mos',
+    duration: '[ Sep 2018 - Oct 2021 ]',
     details: [
       '• Primary support for transitioning management and understaffed roles throughout the duration of COVID-19.',
       '• Proficiency in managing 6 departments across several Gold Coast and Melbourne locations.',
@@ -68,7 +68,7 @@ const data = [
     year: 2015,
     company: '/ McDonalds',
     position: 'CREW MEMBER',
-    duration: '3 yrs 8 mos',
+    duration: '[ Dec 2015 - Jul 2019 ]',
     details: [
       '• Developed customer service and time management skills in a dynamic and fast-paced environment.',
       '• Maintained and prioritised smooth customer traffic within unpredictable timeframes.',
