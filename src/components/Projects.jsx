@@ -27,9 +27,48 @@ const projectData = [
     title: 'Customer Relationship Management (CRM) API Web Server',
     tags: [
       'Python',
+      'SQLAlchemy',
+      'PostgreSQL',
+      'Marshmallow',
+      'Flask',
+      'RESTful API'
     ],
-    description: '',
-    images: []
+    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    images: [
+      '/images/CRMAPIProfiles.png',
+      '/images/CRMAPIAddress.png'
+    ]
+  },
+  {
+    title: 'Portfolio Website v1',
+    tags: [
+      'HTML',
+      'CSS',
+      'Netlify'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    images: [
+      '/images/HTMLCSSPortfolioHome.png',
+      '/images/HTMLCSSPortfolioAbout.png',
+      '/images/HTMLCSSPortfolioProjects.png',
+      '/images/HTMLCSSPortfolioBlog.png'
+    ]
+  },
+  {
+    title: '"Poof!" - Python Terminal Application',
+    tags: [
+      'HTML',
+      'CSS',
+      'Netlify'
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    images: [
+      '/images/PoofIntroduction.png',
+      '/images/PoofLog1.png',
+      '/images/PoofChoicePoint.png',
+      '/images/PoofLog2.png',
+      '/images/PoofRecipeIntroduction.png'
+    ]
   }
 ]
 
