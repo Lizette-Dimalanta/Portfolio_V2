@@ -29,12 +29,12 @@ const data = [
     ],
     carousel: [
       {
-        image: '/images/MongerTechOffice.jpg',
-        caption: 'Monger Tech Office'
-      },
-      {
         image: '/images/MongerTechAdvertisement.png',
         caption: 'Monger Tech Advertisement'
+      },
+      {
+        image: '/images/MongerTechOffice.jpg',
+        caption: 'Monger Tech Office'
       },
       {
         image: '/images/MongerTrackers.png',

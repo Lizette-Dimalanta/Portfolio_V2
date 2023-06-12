@@ -16,12 +16,14 @@ const projectData = [
       'NodeJS',
       'Railway'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     images: [
       '/images/BarbequePlannerAddParticipant.png',
       '/images/BarbequePlannerParticipantsList.png',
       '/images/BarbequePlannerShoppingList.png'
-    ]
+    ],
+    github: 'https://github.com/Lizette-Dimalanta/T3A2-B-Full-Stack-App',
+    website: 'https://t3a2-b-front-end-production.up.railway.app/'
   },
   {
     title: 'Customer Relationship Management (CRM) API Web Server',
@@ -33,11 +35,13 @@ const projectData = [
       'Flask',
       'RESTful API'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     images: [
       '/images/CRMAPIProfiles.png',
       '/images/CRMAPIAddress.png'
-    ]
+    ],
+    github: 'https://github.com/Lizette-Dimalanta/CRM_API',
+    website: ''
   },
   {
     title: 'Portfolio Website v1',
@@ -46,29 +50,32 @@ const projectData = [
       'CSS',
       'Netlify'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     images: [
       '/images/HTMLCSSPortfolioHome.png',
       '/images/HTMLCSSPortfolioAbout.png',
       '/images/HTMLCSSPortfolioProjects.png',
       '/images/HTMLCSSPortfolioBlog.png'
-    ]
+    ],
+    github: 'https://github.com/Lizette-Dimalanta/HTML-CSS-Portfolio',
+    website: 'https://630f5c86dd884a0e2997fad9--lizettedimalanta.netlify.app/'
   },
   {
     title: '"Poof!" - Python Terminal Application',
     tags: [
-      'HTML',
-      'CSS',
-      'Netlify'
+      'Python',
+      'PIP'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     images: [
       '/images/PoofIntroduction.png',
       '/images/PoofLog1.png',
       '/images/PoofChoicePoint.png',
       '/images/PoofLog2.png',
       '/images/PoofRecipeIntroduction.png'
-    ]
+    ],
+    github: 'https://github.com/Lizette-Dimalanta/Python-Terminal-Application',
+    website: ''
   }
 ]
 
@@ -85,6 +92,8 @@ const Projects = () => {
               tags={project.tags}
               description={project.description}
               images={project.images}
+              github={project.github}
+              website={project.website}
             />
           </div>
         ))}

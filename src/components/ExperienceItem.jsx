@@ -27,7 +27,6 @@ const ExperienceItem = ({ year, company, position, duration, details, carousel }
                 showIndicators={true}
                 showThumbs={false}
                 infiniteLoop={true}
-                autoPlay={true}
                 interval={3000}
                 className='md:w-1/3 flex pt-5 overflow-hidden rounded-lg'
               >
