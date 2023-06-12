@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+// import CarouselComponent from './CarouselComponent'
 
 const projectData = [
   {
@@ -15,55 +16,39 @@ const projectData = [
       'NodeJS',
       'Railway'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adip'
+    description: 'Lorem ipsum dolor sit amet, consectetur adip',
+    images: [
+      '/images/BarbequePlannerAddParticipant.png',
+      '/images/BarbequePlannerParticipantsList.png',
+      '/images/BarbequePlannerShoppingList.png'
+    ]
+  },
+  {
+    title: 'Customer Relationship Management (CRM) API Web Server',
+    tags: [
+      'Python',
+    ],
+    description: '',
+    images: []
   }
-  // {
-  //   title: 'C'
-  //   tags:
-  //   description:
-  // }
 ]
 
 const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto'>
-        <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-stone-900 text-start underline underline-offset-8 py-10 pl-1'>
+        <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-stone-900 text-center sm:text-start underline underline-offset-8 pt-10 pb-5 sm:pl-5'>
           PROJECTS
         </h1>
-        <div className='flex flex-col md:flex-row py-10 border-2 border-slate-200/50 rounded-md'>
-          <div className='md:w-2/5 pl-10'>
-            <Carousel
-              showStatus={false}
-              showIndicators={true}
-              showThumbs={false}
-              infiniteLoop={true}
-              autoPlay={true}
-              interval={3000}
-              className="overflow-hidden rounded-lg"
-            >
-              <div>
-                <img src="/images/BarbequePlannerAddParticipant.png" alt="Barbeque Planner App" />
-              </div>
-              <div>
-                <img src="/images/BarbequePlannerParticipantsList.png" alt="Barbeque Planner Participants List" />
-              </div>
-              <div>
-                <img src="/images/BarbequePlannerShoppingList.png" alt="Barbeque Planner Shopping List" />
-              </div>
-            </Carousel>
+        {projectData.map((project, projectID) => (
+          <div key={projectID}>
+            <ProjectItem 
+              title={project.title}
+              tags={project.tags}
+              description={project.description}
+              images={project.images}
+            />
           </div>
-          <div className='md:w-1/2 flex pl-10'>
-            {projectData.map((project, projectID) => (
-              <div key={projectID}>
-                <ProjectItem 
-                  title={project.title}
-                  tags={project.tags}
-                  description={project.description}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+        ))}
     </div>
   )
 }

@@ -81,7 +81,7 @@ const data = [
 const Experience = () => {
   return (
     <div id='Experience' className='max-w-[1040px] m-auto px-5'>
-      <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-stone-900 text-start underline underline-offset-8 py-10 pl-1'>
+      <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-stone-900 text-center sm:text-start underline underline-offset-8 py-10 sm:pl-5'>
         EXPERIENCE
       </h1>
         {data.map((item, itemid) => (
