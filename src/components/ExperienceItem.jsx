@@ -4,6 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const ExperienceItem = ({ year, company, position, duration, details, carousel }) => {
   return (
+    <div className='px-5'>
     <ol className='flex flex-col md:flex-row relative border-l border-slate-300 px-5'>
       <li className='mb-10 ml-4'>
           <div className='absolute w-3 h-3 bg-slate-300 rounded-full mt-1.5 -left-1.5 border-white'/>
@@ -40,6 +41,7 @@ const ExperienceItem = ({ year, company, position, duration, details, carousel }
           </div>
       </li>
     </ol>
+  </div>
   )
 }
 

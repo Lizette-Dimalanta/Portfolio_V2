@@ -80,7 +80,7 @@ const data = [
 
 const Experience = () => {
   return (
-    <div id='Experience' className='max-w-[1040px] m-auto px-5'>
+    <div id='Experience' className='max-w-[1060px] m-auto px-10 bg-white shadow-lg'>
       <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-stone-900 text-center sm:text-start underline underline-offset-8 py-10 sm:pl-5'>
         EXPERIENCE
       </h1>

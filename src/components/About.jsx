@@ -4,12 +4,15 @@ import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 // import AboutCarousel from './AboutCarousel'
 
+{/* <div id='about' className='bg-sticky h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'public/images/WhiteBackground.jpg'})` }}></div> */}
+
 const About = () => {
 
   return (
-    <div id='About' className='max-w-[1040px] m-auto px-5 flex flex-col md:flex-row py-20'>
+    <div id='About'>
+    <div className='max-w-[1060px] m-auto px-10 flex flex-col md:flex-row py-20 bg-white shadow-lg'>
       <div className='md:w-1/2'>
-        <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-slate-900 text-start underline underline-offset-8 py-10 sm:pl-1'>
+        <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-slate-900 text-start underline underline-offset-8 pb-10 pt-5 sm:pl-1'>
           ABOUT
         </h1>
         <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 leading-loose pb-5 pr-10'>
@@ -55,7 +58,6 @@ const About = () => {
           </AccordionItem>
         </Accordion>
       </div>
-
       <div className='md:w-1/2 flex justify-end py-10'>
         <Carousel
           showStatus={false}
@@ -87,8 +89,10 @@ const About = () => {
         </Carousel>
       </div>
     </div>
+    </div>
   )
 }
+
 
 {/* <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-stone-600 text-start py-10 pl-1'>
 "How would your friends describe you?"

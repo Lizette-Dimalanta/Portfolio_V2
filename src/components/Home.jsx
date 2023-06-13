@@ -10,7 +10,7 @@ import { VscGithubInverted } from "react-icons/vsc"
 const Home = () => {
   return (
     <div className='h-screen'>
-      <img src='/images/HeroBackground.jpeg' alt='background image' className='w-full h-full absolute object-fixed object-cover object-center'/>
+      <img src='/images/HeroBackground.jpeg' alt='background image' className='w-full h-full absolute object-fixed object-cover object-center z-0'/>
       <div className='w-full h-full absolute top-15 left-0 bg-slate-800/30'>
       <div>
         <h2 className='font-Roboto-Mono text-white tracking-wide font-semibold flex text-3xl sm:text-5xl pt-32 sm:pt-40 pl-6 place-content-start sm:pl-24'>

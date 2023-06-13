@@ -24,11 +24,17 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <About />
       <Quote />
-      <Experience />
-      <Projects />
+      <div className='relative'>
+        <div className='fixed inset-0 bg-cover bg-center z-[-1]' style={{ backgroundImage: `url(${'public/images/WhiteBackground.jpg'})` }}/>
+        <div className='z-10'>
+          <About />
+          <Experience />
+          <Projects />
+        </div>
+      </div>
     </div>
+
     // <AnimatePresence>
     //   <div>
     //     <Router>
