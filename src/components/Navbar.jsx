@@ -12,11 +12,11 @@ const Navbar = () => {
   }
 
   return (
-    <div className='border-white border-x-[25px] border-t-[10px] border-b-8 shadow-lg sticky top-0 z-50 bg-white'>
+    <div className='border-white border-x-[25px] border-t-[10px] border-b-8 shadow-sm sticky top-0 z-50 bg-white'>
       <div className='flex place-items-center justify-between'>
         <button>
           <h1 className='text-2xl md:text-3xl border-t-[4px] border-white font-bold italic bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
-            <span className='not-italic'> DIMALALNTA</span>
+            <span className='not-italic'> DIMALANTA</span>
           </h1>
         </button>
         <div className='font-Roboto-Mono text-sm hidden md:flex gap-5'>

@@ -81,8 +81,8 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div id='projects' className='max-w-[1060px] m-auto px-10 bg-white shadow-lg'>
-        <h1 className='font-DM-Sherif-Display italic font-semibold text-4xl text-stone-900 text-center sm:text-start underline underline-offset-8 pt-10 pb-5 sm:pl-5'>
+    <div id='projects' className='max-w-[1060px] m-auto px-10 bg-white shadow-md pt-10'>
+        <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-stone-900 text-center sm:text-start pt-10 pb-5 sm:pl-5'>
           PROJECTS
         </h1>
         {projectData.map((project, projectID) => (
