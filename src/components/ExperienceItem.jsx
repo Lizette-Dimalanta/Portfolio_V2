@@ -14,7 +14,7 @@ const ExperienceItem = ({ year, company, position, duration, tags, details, caro
             <span className='text-sm sm:text-lg text-slate-700 '>{company}</span>
             <span className='tracking-wide text-slate-500 text-xs'>{duration}</span>
           </p>
-          <div className='text-start space-x-2 space-y-2 pt-2 sm:pb-1'>
+          <div className='text-start space-x-2 space-y-2 pt-2 sm:pt-1'>
             {tags.map((tag, tagID) => (
                 <p key={tagID} className='inline-block font-Roboto-Mono font-semibold text-white text-sm px-2 py-1 bg-sky-950/30 rounded-full'>
                   {tag}
