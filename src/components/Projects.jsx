@@ -16,7 +16,7 @@ const projectData = [
       'NodeJS',
       'Railway'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Collaborative full-stack application to manage food and drink quantities for friend and family barbeque events.',
     images: [
       '/images/BarbequePlannerAddParticipant.png',
       '/images/BarbequePlannerParticipantsList.png',
@@ -35,7 +35,7 @@ const projectData = [
       'Flask',
       'RESTful API'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: "Built to provide the core foundation to expand accordingly to maximise the efficiency of a business' needs.",
     images: [
       '/images/CRMAPIProfiles.png',
       '/images/CRMAPIAddress.png'
@@ -50,7 +50,7 @@ const projectData = [
       'CSS',
       'Netlify'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'First portfolio version created with HTML and CSS. An exhibition of my capabilities, creativity and personality.',
     images: [
       '/images/HTMLCSSPortfolioHome.png',
       '/images/HTMLCSSPortfolioAbout.png',
@@ -66,7 +66,7 @@ const projectData = [
       'Python',
       'PIP'
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'An interactive text-based mystery game, playing in the first-person perspective of a clueless scientist.',
     images: [
       '/images/PoofIntroduction.png',
       '/images/PoofLog1.png',
@@ -81,7 +81,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div id='projects' className='max-w-[1060px] m-auto px-10 bg-white shadow-md pt-10'>
+    <div id='projects' className='max-w-[1100px] m-auto sm:px-20 bg-white shadow-md pt-10'>
         <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-stone-900 text-center sm:text-start pt-10 pb-5 sm:pl-5'>
           PROJECTS
         </h1>

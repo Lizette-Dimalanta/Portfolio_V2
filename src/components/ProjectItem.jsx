@@ -15,7 +15,7 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
   return (
     <div className='px-5 pt-3'>
         <div className='max-w-[1040px] m-auto flex flex-col md:flex-row py-7 border-2 border-slate-200/50 rounded-lg px-7 shadow-sm'>
-            <div className='md:w-2/5'>
+            <div className='md:w-2/5 self-center min-w-[40%]'>
                 <Carousel
                     showStatus={false}
                     showIndicators={true}
@@ -38,11 +38,11 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
                         {title}
                     </h2>
                     <div className='text-start space-x-1 space-y-2'>
-                    {tags.map((tag, tagID) => (
-                        <p key={tagID} className='inline-block font-Roboto-Mono font-semibold text-white text-sm px-2 py-1 bg-sky-950/30 rounded-full'>
-                        {tag}
-                        </p>
-                    ))}
+                        {tags.map((tag, tagID) => (
+                            <p key={tagID} className='inline-block font-Roboto-Mono font-semibold text-white text-sm px-2 py-1 bg-sky-950/30 rounded-full'>
+                            {tag}
+                            </p>
+                        ))}
                     </div>
                     <p className='flex text-start font-Inter tracking-wide text-slate-800 text-sm pt-5'>
                         {description}

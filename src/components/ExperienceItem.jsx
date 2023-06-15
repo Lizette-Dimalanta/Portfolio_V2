@@ -2,7 +2,7 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
-const ExperienceItem = ({ year, company, position, duration, details, carousel }) => {
+const ExperienceItem = ({ year, company, position, duration, tags, details, carousel }) => {
   return (
     <div className='px-5'>
     <ol className='flex flex-col md:flex-row relative border-l border-slate-300 px-5'>
@@ -14,6 +14,13 @@ const ExperienceItem = ({ year, company, position, duration, details, carousel }
             <span className='text-sm sm:text-lg text-slate-700 '>{company}</span>
             <span className='tracking-wide text-slate-500 text-xs'>{duration}</span>
           </p>
+          <div className='text-start space-x-2 space-y-2 pt-2 sm:pb-1'>
+            {tags.map((tag, tagID) => (
+                <p key={tagID} className='inline-block font-Roboto-Mono font-semibold text-white text-sm px-2 py-1 bg-sky-950/30 rounded-full'>
+                  {tag}
+                </p>
+            ))}
+          </div>
           <div className='pt-2'>
             {details.map((detail, i) => (
                 <p key={i} className='flex text-start font-Inter tracking-wide text-slate-800 text-sm p-1'>
@@ -29,7 +36,7 @@ const ExperienceItem = ({ year, company, position, duration, details, carousel }
                 showThumbs={false}
                 infiniteLoop={true}
                 interval={3000}
-                className='md:w-1/3 flex pt-5 overflow-hidden rounded-lg'
+                className='md:w-1/3 flex pt-5 overflow-hidden rounded-sm'
               >
                 {carousel.map((slide, slideIndex) => (
                   <div key={slideIndex}>

@@ -8,6 +8,11 @@ const data = [
     company: '/ Victorian Building Authority',
     position: 'DATA ENTRY OFFICER',
     duration: '[ Mar 2023 - Present ]',
+    tags: [
+      'Microsoft Dynamics CRM',
+      'Salesforce',
+      'Outlook'
+    ],
     details: [
       '• Delivering practitioner registration administration to support the licensing and registration scheme for building and plumbing practitioners within Victoria.',
       '• Creating and maintaining database records for all new applicants and existing practitioners.',
@@ -20,6 +25,11 @@ const data = [
     company: '/ Monger Tech',
     position: 'ADMINISTRATOR',
     duration: '[ Oct 2021 - May 2022 ]',
+    tags: [
+      'Figma',
+      'Adobe Xd',
+      'Adobe Photoshop'
+    ],
     details: [
       '• Maintained business operations in an IoT, SaaS and hybrid B2B/B2C startup setting.',
       '• Oversaw organisational cash flow, budgets, receipts, wages and reports.',
@@ -47,6 +57,7 @@ const data = [
     company: '/ Coles',
     position: 'ACTING DAIRY MANAGER',
     duration: '[ Sep 2018 - Oct 2021 ]',
+    tags: [],
     details: [
       '• Primary support for transitioning management and understaffed roles throughout the duration of COVID-19.',
       '• Proficiency in managing 6 departments across several Gold Coast and Melbourne locations.',
@@ -69,6 +80,7 @@ const data = [
     company: '/ McDonalds',
     position: 'CREW MEMBER',
     duration: '[ Dec 2015 - Jul 2019 ]',
+    tags: [],
     details: [
       '• Developed customer service and time management skills in a dynamic and fast-paced environment.',
       '• Maintained and prioritised smooth customer traffic within unpredictable timeframes.',
@@ -80,7 +92,7 @@ const data = [
 
 const Experience = () => {
   return (
-    <div id='experience' className='max-w-[1060px] m-auto px-10 bg-white shadow-md'>
+    <div id='experience' className='max-w-[1100px] m-auto sm:px-20 bg-white shadow-md'>
       <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-stone-900 text-center sm:text-start py-10 sm:pl-5'>
         EXPERIENCE
       </h1>
@@ -91,6 +103,7 @@ const Experience = () => {
               company={item.company} 
               position={item.position} 
               duration={item.duration}
+              tags={item.tags}
               details={item.details} 
               carousel={item.carousel}
             />

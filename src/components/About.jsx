@@ -10,22 +10,22 @@ const About = () => {
 
   return (
     <div id='about'>
-    <div className='max-w-[1060px] m-auto px-10 flex flex-col md:flex-row py-20 bg-white shadow-md'>
+    <div className='max-w-[1100px] m-auto px-10 sm:px-20 flex flex-col md:flex-row py-20 bg-white shadow-md'>
       <div className='md:w-1/2'>
         <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-slate-900 text-start pb-5  sm:pl-1'>
           ABOUT
         </h1>
-        <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 leading-loose pb-5 pr-10'>
+        <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 leading-loose pb-5 sm:pr-10'>
           A passionate, driven and explorative thinker - fuelled by curiosity in discovering innovative solutions through the combination of business, design, technological and humanitarian perspectives.
         </p>
-        <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 leading-loose pb-5 pr-10'>
+        <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 leading-loose pb-5 sm:pr-10'>
           Diversity in Tech scholarship recipient and recent graduate of the Coder Academy Full-Stack Web Development Bootcamp.
         </p>
         <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-slate-700 text-start py-3'>
           Find out more:
         </h2>
 
-        <Accordion allowZeroExpanded className='text-start pr-10'>
+        <Accordion allowZeroExpanded className='text-start sm:pr-10'>
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md border-[1px] border-slate-200 rounded-md shadow-sm'>
@@ -73,7 +73,7 @@ const About = () => {
           </AccordionItem>
         </Accordion>
       </div>
-      <div className='md:w-1/2 flex justify-end sm:pt-20'>
+      <div className='md:w-1/2 flex justify-end pt-10 sm:pt-24'>
         <Carousel
           showStatus={false}
           showIndicators={true}
@@ -81,7 +81,7 @@ const About = () => {
           infiniteLoop={true}
           autoPlay={true}
           interval={3000}
-          className="overflow-hidden rounded-md"
+          className="overflow-hidden rounded-sm"
         >
           <div>
             <img src="/images/Hiking.jpeg" alt="Hiking" />
@@ -96,10 +96,10 @@ const About = () => {
             <img src="/images/CA.jpg" alt="Coder Academy" />
           </div>
           <div>
-            <img src="/images/Coding1.JPG" alt="Coding1" />
+            <img src="/images/Family.jpeg" alt="Family" />
           </div>
           <div>
-            <img src="/images/Family.jpeg" alt="Family" />
+            <img src="/images/Coding1.JPG" alt="Coding1" />
           </div>
         </Carousel>
       </div>
