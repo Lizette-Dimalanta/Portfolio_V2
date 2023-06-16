@@ -10,7 +10,7 @@ import { VscGithubInverted } from "react-icons/vsc"
 const Home = () => {
   return (
     <div className='h-screen'>
-      <img src='/images/HeroBackground.jpeg' alt='background image' className='w-full h-full absolute object-fixed object-cover object-center z-0'/>
+      <img src='/images/HeroBackground.jpeg' alt='background image' className='w-full h-full absolute object-cover object-center z-0'/>
       <div className='w-full h-full absolute top-15 left-0 bg-slate-800/30'>
       <div>
         <h2 className='font-Roboto-Mono text-white tracking-wide font-semibold flex text-3xl sm:text-5xl pt-32 sm:pt-40 pl-6 place-content-start sm:pl-24'>
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
       <div className='font-Roboto-Mono font-semibold text-white text-2xl flex justify-end items-end sm:place-content-end sm:items-end whitespace-nowrap flex-col pt-52 sm:pt-36 pr-5 sm:pr-24'>
         <div className='hover:scale-110 transition-all ease-in-out duration-300'>
-          <a href='/public/2023Resume.pdf' target="_blank" rel="noopener noreferrer" className='cursor-pointer tracking-wide bg-slate-800/60 rounded-md px-2 py-0.5 m-1'> RESUME
+          <a href='/2023Resume.pdf' target="_blank" rel="noopener noreferrer" className='cursor-pointer tracking-wide bg-slate-800/60 rounded-md px-2 py-0.5 m-1'> RESUME
           </a>
         </div>
         <div className='pt-4 hover:scale-110 transition-all ease-in-out duration-300'>
