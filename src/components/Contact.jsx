@@ -47,8 +47,8 @@ const Contact = () => {
           <textarea className='border-2 rounded-lg p-3 border-slate-200/50 shadow-sm' 
                     rows='5' name='message' />
         </div>
-        <div className='flex justify-end py-2'>
-          <button className='font-Roboto-Mono font-semibold text-white text-md px-1 py-1 bg-slate-700 rounded-md shadow-md hover:bg-slate-900'>
+        <div className='flex justify-end pt-5 pb-20'>
+          <button className='font-Roboto-Mono font-semibold text-white text-md px-1 py-1 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-400'>
             <IoIosSend size={30}/>
           </button>
         </div>

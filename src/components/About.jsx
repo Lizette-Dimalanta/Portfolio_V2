@@ -9,7 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 const About = () => {
 
   return (
-    <div id='about'>
+    <div id='about' className='pt-10'>
     <div className='max-w-[1100px] m-auto px-10 sm:px-20 flex flex-col md:flex-row py-20 bg-white shadow-md'>
       <div className='md:w-1/2'>
         <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-slate-900 text-start pb-5  sm:pl-1'>
@@ -28,7 +28,7 @@ const About = () => {
         <Accordion allowZeroExpanded className='text-start sm:pr-10'>
           <AccordionItem>
             <AccordionItemHeading>
-              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md border-[1px] border-slate-200 rounded-md shadow-sm'>
+              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md border-[1px] border-slate-200 rounded-md shadow-sm hover:bg-slate-50'>
                 ▾ "How would your friends describe you?"
               </AccordionItemButton>
             </AccordionItemHeading>
@@ -49,24 +49,24 @@ const About = () => {
           </AccordionItem>
           <AccordionItem className='pt-2'>
             <AccordionItemHeading>
-              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md shadow-sm'>
+              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md shadow-sm hover:bg-slate-50'>
                 ▾ "What is your aspiration?"
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className='px-4 py-2'>
-              <p className='font-Inter text-start text-sm tracking-wide text-slate-800 pl-4 leading-loose'> 
+              <p className='font-Inter text-start text-sm tracking-wide text-slate-800 pl-4 leading-loose hover:bg-slate-50'> 
                 My parents are first-generation immigrants who worked hard as cleaners to give my siblings and I a better life. I aspire to carry on their strength to create meaningful change.
               </p>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem className='pt-2'>
             <AccordionItemHeading>
-              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md shadow-sm'>
+              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md shadow-sm hover:bg-slate-50'>
                 ▾ "What are your interests?"
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className='px-4 py-2'>
-              <p className='font-Inter text-start text-sm tracking-wide text-slate-800 pl-4 leading-loose'> 
+              <p className='font-Inter text-start text-sm tracking-wide text-slate-800 pl-4 leading-loose hover:bg-slate-50'> 
                 I'm a huge nerd for tech, philosophy, music, games and plants! You'll often find me exploring random topics or trying something new.
               </p>
             </AccordionItemPanel>

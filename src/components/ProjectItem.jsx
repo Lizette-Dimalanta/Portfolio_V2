@@ -49,11 +49,11 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
                     </p>
                     <div className='text-black flex justify-end space-x-3 pt-5'>
                         {website && (
-                            <button className="inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900" onClick={websiteNavigation}>
+                            <button className="inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-300" onClick={websiteNavigation}>
                                 <BsGlobe2 size={20}/>
                             </button>
                         )}
-                        <button className="inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900" onClick={githubNavigation}>
+                        <button className="inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-300" onClick={githubNavigation}>
                             <TfiGithub size={20}/>
                         </button>
                     </div>
@@ -64,4 +64,4 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
   )
 }
 
-export default ProjectItem;
+export default ProjectItem

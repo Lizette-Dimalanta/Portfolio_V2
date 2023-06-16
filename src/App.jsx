@@ -11,6 +11,7 @@ import About from './components/About'
 import Quote from './components/Quote'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 // const Home = lazy(() => import('./components/Home'))
 // const About = lazy(() => import('./components/About'))
@@ -32,6 +33,7 @@ function App() {
           <Experience />
           <Projects />
           <Contact />
+          <Footer />
         </div>
       </div>
     </div>
