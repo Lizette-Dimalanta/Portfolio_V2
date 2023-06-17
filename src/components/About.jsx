@@ -12,7 +12,7 @@ const About = () => {
     <div id='about' className='pt-10'>
     <div className='max-w-[1100px] m-auto px-10 sm:px-20 flex flex-col md:flex-row py-20 bg-white shadow-md'>
       <div className='md:w-1/2'>
-        <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-slate-900 text-start pb-5  sm:pl-1'>
+        <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-slate-900 text-center sm:text-start pb-5  sm:pl-1'>
           ABOUT
         </h1>
         <p className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 leading-loose pb-5 sm:pr-10'>
