@@ -2,12 +2,9 @@ import React from 'react'
 import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, AccordionItemPanel } from 'react-accessible-accordion'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-// import AboutCarousel from './AboutCarousel'
 
-{/* <div id='about' className='bg-sticky h-screen bg-cover bg-center' style={{ backgroundImage: `url(${'public/images/WhiteBackground.jpg'})` }}></div> */}
-
+// About Section
 const About = () => {
-
   return (
     <div id='about' className='pt-10'>
     <div className='max-w-[1100px] m-auto px-10 sm:px-20 flex flex-col md:flex-row py-20 bg-white shadow-md'>
@@ -24,7 +21,6 @@ const About = () => {
         <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-slate-700 text-start py-3'>
           Find out more:
         </h2>
-
         <Accordion allowZeroExpanded className='text-start sm:pr-10'>
           <AccordionItem>
             <AccordionItemHeading>
@@ -81,25 +77,25 @@ const About = () => {
           infiniteLoop={true}
           autoPlay={true}
           interval={3000}
-          className="overflow-hidden rounded-sm"
+          className='overflow-hidden rounded-sm'
         >
           <div>
-            <img src="/images/Hiking.jpeg" alt="Hiking" />
+            <img src='/images/Hiking.jpeg' alt='Hiking' />
           </div>
           <div>
-            <img src="/images/Coding2.jpeg" alt="Coding2" />
+            <img src='/images/Coding2.jpeg' alt='Coding2' />
           </div>
           <div>
-            <img src="/images/Beach.jpeg" alt="Beach" />
+            <img src='/images/Beach.jpeg' alt='Beach' />
           </div>
           <div>
-            <img src="/images/CA.jpg" alt="Coder Academy" />
+            <img src='/images/CA.jpg' alt='Coder Academy' />
           </div>
           <div>
-            <img src="/images/Family.jpeg" alt="Family" />
+            <img src='/images/Family.jpeg' alt='Family' />
           </div>
           <div>
-            <img src="/images/Coding1.JPG" alt="Coding1" />
+            <img src='/images/Coding1.JPG' alt='Coding1' />
           </div>
         </Carousel>
       </div>
@@ -107,15 +103,5 @@ const About = () => {
     </div>
   )
 }
-
-
-{/* <h2 className='font-DM-Sherif-Display italic font-semibold text-3xl text-stone-600 text-start py-10 pl-1'>
-"How would your friends describe you?"
-</h2>
-<div className='flex text-start font-Inter tracking-wide text-slate-800 text-md p-1 w-1/2 leading-loose'>
-<p className='inline-block font-Inter font-semibold text-white px-2 py-1 bg-sky-950/60 rounded-md'>
-  "Lizette is funny, hardworking and loveable. She makes a great partner in any project and always gives the task at hand 110%." - Billy Monger
-</p>
-</div> */}
 
 export default About

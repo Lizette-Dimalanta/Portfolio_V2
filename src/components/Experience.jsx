@@ -1,6 +1,5 @@
 import React from 'react'
 import ExperienceItem from './ExperienceItem'
-import { Carousel } from 'react-responsive-carousel'
 
 const data = [
   {

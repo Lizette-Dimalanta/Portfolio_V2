@@ -11,5 +11,3 @@ const Quote = () => {
 }
 
 export default Quote
-
-// <div className='w-screen bg-slate-400 py-20'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { IoIosSend } from "react-icons/io"
+import { IoIosSend } from 'react-icons/io'
 
 const Contact = () => {
   return (
@@ -7,7 +7,10 @@ const Contact = () => {
       <h1 className='font-DM-Sherif-Display italic font-semibold text-[45px] text-stone-900 text-center sm:text-start pt-10 pb-5 sm:pl-5'> 
         CONTACT
       </h1>
-      <form action='https://getform.io/f/fc47d535-c380-47e4-89ef-5b5a786b21c3' method='POST' encType='multipart/form-data' className='px-5'>
+      <form action='https://getform.io/f/fc47d535-c380-47e4-89ef-5b5a786b21c3' 
+            method='POST' 
+            encType='multipart/form-data' 
+            className='px-5'>
         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
           <div className='flex flex-col font-Inter text-start'>
             <label className='text-sm py-2'>

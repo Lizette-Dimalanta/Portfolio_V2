@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import { BsGlobe2 } from "react-icons/bs"
-import { TfiGithub } from "react-icons/tfi"
+import { BsGlobe2 } from 'react-icons/bs'
+import { TfiGithub } from 'react-icons/tfi'
 
 const ProjectItem = ({ title, tags, description, images, github, website }) => {
     const githubNavigation = () => {
@@ -21,9 +21,8 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
                     showIndicators={true}
                     showThumbs={false}
                     infiniteLoop={true}
-                    // autoPlay={true}
                     interval={3000}
-                    className="overflow-hidden rounded-lg shadow-sm"
+                    className='overflow-hidden rounded-lg shadow-sm'
                     >
                     {images.map((image, index) => (
                         <div key={index}>
@@ -40,7 +39,7 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
                     <div className='text-start space-x-1 space-y-2'>
                         {tags.map((tag, tagID) => (
                             <p key={tagID} className='inline-block font-Roboto-Mono font-semibold text-white text-sm px-2 py-1 bg-sky-950/30 rounded-full'>
-                            {tag}
+                                {tag}
                             </p>
                         ))}
                     </div>
@@ -49,11 +48,11 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
                     </p>
                     <div className='text-black flex justify-end space-x-3 pt-5'>
                         {website && (
-                            <button className="inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-300" onClick={websiteNavigation}>
+                            <button className='inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-300' onClick={websiteNavigation}>
                                 <BsGlobe2 size={20}/>
                             </button>
                         )}
-                        <button className="inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-300" onClick={githubNavigation}>
+                        <button className='inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-300' onClick={githubNavigation}>
                             <TfiGithub size={20}/>
                         </button>
                     </div>
