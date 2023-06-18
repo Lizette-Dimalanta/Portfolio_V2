@@ -3,7 +3,6 @@ import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, Ac
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
-// About Section
 const About = () => {
   return (
     <div id='about' className='pt-10'>

@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className='pt-10'>
         <div className='w-screen m-auto px-5 bg-slate-800 py-10 flex justify-center'>
-            <div className='max-w-[1040px] font-Inter text-sm text-white space-x-4'>
+            <div className='max-w-[1040px] font-Inter text-white space-x-4'>
                 <a href='/2023Resume.pdf' 
                    onClick={resumeNavigation}
                    className="inline-block font-Roboto-Mono font-semibold text-white text-md p-[9.5px] bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-400">
@@ -32,6 +32,9 @@ const Footer = () => {
                    className="inline-block font-Roboto-Mono font-semibold text-white text-md px-2 py-2 bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-400">
                     <TfiGithub size={35}/>
                 </a>
+                <h3 className='text-start text-xs pt-5 text-white/50'>
+                    ©2023 Lizette Dimalanta
+                </h3>
             </div>
         </div>
     </div>
