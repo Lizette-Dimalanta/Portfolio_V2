@@ -14,7 +14,7 @@ const projectData = [
       'NodeJS',
       'Railway'
     ],
-    description: 'Collaborative full-stack application to manage food and drink quantities for friend and family barbeque events.',
+    description: 'Collaborative MERN application to manage food and drink quantities for friend and family barbeque events.',
     images: [
       '/images/BarbequePlannerAddParticipant.png',
       '/images/BarbequePlannerParticipantsList.png',
