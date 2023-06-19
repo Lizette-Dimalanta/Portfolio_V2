@@ -4,22 +4,18 @@
 
 - Vite
 - React JS
-  - React-accessible-accordion
-  - React-repsonsive-carousel
-  - React-type-animation
+  - `React-accessible-accordion`
+  - `React-repsonsive-carousel`
+  - `React-type-animation`
 - Tailwind CSS
 - Getform.io
 - Figma
 
 ## Demo
 
-### Homepage
+### Homepage / Quote
 
-![Homepage](public/images/Screenshots/Homepage.png)
-
-### Quote
-
-![Quote](public/images/Screenshots/Quote.png)
+![Homepage and Quote](public/images/Screenshots/Homepage-Quote.png)
 
 ### About
 
