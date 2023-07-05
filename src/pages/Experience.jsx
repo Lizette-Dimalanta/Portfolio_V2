@@ -8,9 +8,10 @@ const data = [
     position: 'DATA ENTRY OFFICER',
     duration: '[ Mar 2023 - Present ]',
     tags: [
+      'Microsoft 365',
       'Microsoft Dynamics CRM',
       'Salesforce',
-      'Outlook'
+      'Cisco'
     ],
     details: [
       '• Delivering practitioner registration administration to support the licensing and registration scheme for building and plumbing practitioners within Victoria.',
