@@ -28,7 +28,11 @@ const data = [
     tags: [
       'Figma',
       'Adobe Xd',
-      'Adobe Photoshop'
+      'Adobe Photoshop',
+      'Shopify',
+      'Amazon Seller',
+      'Meta Business Suite',
+      'Instagram'
     ],
     details: [
       '• Maintained business operations in an IoT, SaaS and hybrid B2B/B2C startup setting.',
