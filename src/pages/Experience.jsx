@@ -31,7 +31,8 @@ const data = [
       'Adobe Photoshop',
       'Shopify',
       'Amazon Seller',
-      'Meta Business Suite',
+      'Ebay',
+      'Facebook',
       'Instagram'
     ],
     details: [
