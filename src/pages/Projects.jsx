@@ -3,26 +3,26 @@ import ProjectItem from '../components/ProjectItem'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const projectData = [
-  // {
-  //   title: 'Full-Stack Barbeque Planner Application',
-  //   tags: [
-  //     'React',
-  //     'Bootstrap',
-  //     'MongoDB',
-  //     'Mongoose',
-  //     'Express',
-  //     'NodeJS',
-  //     'Railway'
-  //   ],
-  //   description: 'Collaborative MERN application to manage food and drink quantities for friend and family barbeque events.',
-  //   images: [
-  //     '/images/BarbequePlannerAddParticipant.png',
-  //     '/images/BarbequePlannerParticipantsList.png',
-  //     '/images/BarbequePlannerShoppingList.png'
-  //   ],
-  //   github: 'https://github.com/Lizette-Dimalanta/T3A2-B-Full-Stack-App',
-  //   website: 'https://t3a2-b-front-end-production.up.railway.app/'
-  // },
+  {
+    title: 'Full-Stack Barbeque Planner Application',
+    tags: [
+      'React',
+      'Bootstrap',
+      'MongoDB',
+      'Mongoose',
+      'Express',
+      'NodeJS',
+      'Railway'
+    ],
+    description: 'Collaborative MERN application to manage food and drink quantities for friend and family barbeque events.',
+    images: [
+      '/images/BarbequePlannerAddParticipant.png',
+      '/images/BarbequePlannerParticipantsList.png',
+      '/images/BarbequePlannerShoppingList.png'
+    ],
+    github: 'https://github.com/Lizette-Dimalanta/T3A2-B-Full-Stack-App',
+    website: 'https://t3a2-b-front-end-production.up.railway.app/'
+  },
   {
     title: 'Customer Relationship Management (CRM) API Web Server',
     tags: [
