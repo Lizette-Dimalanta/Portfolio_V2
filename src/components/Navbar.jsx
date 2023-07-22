@@ -15,7 +15,8 @@ const Navbar = () => {
     <div className='border-white border-x-[25px] border-t-[10px] border-b-8 shadow-sm sticky top-0 z-50 bg-white'>
       <div className='flex place-items-center justify-between'>
         <button>
-          <h1 className='text-2xl md:text-3xl border-t-[4px] border-white font-bold italic bg-white hover:scale-105 transition-all ease-in-out duration-300'>LIZETTE
+          <h1 className='text-2xl md:text-3xl border-t-[4px] border-white font-bold italic bg-white'>
+              LIZETTE
             <span className='not-italic pl-2'> 
               DIMALANTA
             </span>
