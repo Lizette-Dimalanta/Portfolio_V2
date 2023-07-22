@@ -28,13 +28,13 @@ const About = () => {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className='px-4 py-2'>
-              <p className='text-lg italic'>
+              <p className='text-lg italic text-slate-800'>
                 "Lizette is funny, hardworking and loveable. She makes a great partner in any project and always gives the task at hand 110%."
               </p>
               <p className='font-Inter text-sm tracking-wide text-slate-600/70 pl-4'> 
                 ⏤ Billy Monger (UX/UI Designer at Monger Tech)
               </p>
-              <p className='text-lg italic pt-5'>
+              <p className='text-lg italic pt-5 text-slate-800'>
               "A very excited and enthusiastic person who elevates the energy in the room! Also concerns herself with making sure everyone is doing well."
               </p>
               <p className='font-Inter text-sm tracking-wide text-slate-600/70 pl-4'> 
@@ -44,7 +44,7 @@ const About = () => {
           </AccordionItem>
           <AccordionItem className='pt-2'>
             <AccordionItemHeading>
-              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md shadow-sm hover:bg-slate-50'>
+              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md  border-[1px] border-slate-200 rounded-md shadow-sm hover:bg-slate-50'>
                 ▾ "What is your aspiration?"
               </AccordionItemButton>
             </AccordionItemHeading>
@@ -56,7 +56,7 @@ const About = () => {
           </AccordionItem>
           <AccordionItem className='pt-2'>
             <AccordionItemHeading>
-              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md text-slate-700 border-[1px] border-slate-200 rounded-md shadow-sm hover:bg-slate-50'>
+              <AccordionItemButton className='px-3 py-1 font-Roboto-Mono text-md  border-[1px] border-slate-200 rounded-md shadow-sm hover:bg-slate-50'>
                 ▾ "What are your interests?"
               </AccordionItemButton>
             </AccordionItemHeading>

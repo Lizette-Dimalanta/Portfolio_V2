@@ -62,7 +62,9 @@ const data = [
     company: '/ Coles',
     position: 'ACTING DAIRY MANAGER',
     duration: '[ Sep 2018 - Oct 2021 ]',
-    tags: [],
+    tags: [
+      'POS'
+    ],
     details: [
       '• Primary support for transitioning management and understaffed roles throughout the duration of COVID-19.',
       '• Proficiency in managing 6 departments across several Gold Coast and Melbourne locations.',
@@ -85,7 +87,9 @@ const data = [
     company: '/ McDonalds',
     position: 'CREW MEMBER',
     duration: '[ Dec 2015 - Jul 2019 ]',
-    tags: [],
+    tags: [
+      'POS'
+    ],
     details: [
       '• Developed customer service and time management skills in a dynamic and fast-paced environment.',
       '• Maintained and prioritised smooth customer traffic within unpredictable timeframes.',
