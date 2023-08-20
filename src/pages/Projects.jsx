@@ -4,6 +4,24 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const projectData = [
   {
+    title: 'Ribbit: Frog-Themed Reddit (IN PROGRESS)',
+    tags: [
+      'React',
+      'Bootstrap',
+      'MongoDB',
+      'Mongoose',
+      'Express',
+      'NodeJS',
+      'Railway'
+    ],
+    description: 'Collaborative MERN application to manage food and drink quantities for friend and family barbeque events.',
+    images: [
+      '/images/Ribbit.png'
+    ],
+    github: 'https://github.com/Lizette-Dimalanta/T3A2-B-Full-Stack-App',
+    website: 'https://t3a2-b-front-end-production.up.railway.app/'
+  },
+  {
     title: 'Full-Stack Barbeque Planner Application',
     tags: [
       'React',
