@@ -18,8 +18,8 @@ const projectData = [
     images: [
       '/images/Ribbit.png'
     ],
-    github: 'https://github.com/Lizette-Dimalanta/T3A2-B-Full-Stack-App',
-    website: 'https://t3a2-b-front-end-production.up.railway.app/'
+    github: 'https://github.com/Lizette-Dimalanta/Ribbit',
+    website: 'https://ribbit-alpha.vercel.app/'
   },
   {
     title: 'Full-Stack Barbeque Planner Application',
