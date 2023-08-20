@@ -7,7 +7,7 @@ const projectData = [
     title: 'Ribbit: Frog-Themed Reddit (IN PROGRESS)',
     tags: [
       'React',
-      'Bootstrap',
+      'Tailwind CSS',
       'MongoDB',
       'Mongoose',
       'Express',
