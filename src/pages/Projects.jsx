@@ -14,7 +14,7 @@ const projectData = [
       'NodeJS',
       'Railway'
     ],
-    description: 'Collaborative MERN application to manage food and drink quantities for friend and family barbeque events.',
+    description: 'A Frog-themed Reddit social media clone. Inspired by the recent Reddit API news.',
     images: [
       '/images/Ribbit.png'
     ],
