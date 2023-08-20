@@ -12,7 +12,7 @@ const projectData = [
       'Mongoose',
       'Express',
       'NodeJS',
-      'Railway'
+      'Vercel'
     ],
     description: 'A Frog-themed Reddit social media clone. Inspired by the recent Reddit API news.',
     images: [
