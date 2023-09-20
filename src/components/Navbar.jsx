@@ -22,7 +22,7 @@ const Navbar = () => {
             </span>
           </h1>
         </button>
-        <div className='font-Roboto-Mono text-sm hidden md:flex gap-5'>
+        <div className='font-Roboto-Mono text-sm hidden md:flex gap-7'>
           <a href='#about' 
              className='cursor-pointer flex items-center gap-1.5 hover:scale-110 transition-all ease-in-out duration-300 hover:animate-pulse'>
               <IoPerson size={15} /> 
