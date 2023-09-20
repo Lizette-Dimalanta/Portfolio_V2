@@ -4,24 +4,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const projectData = [
   {
-    title: 'Ribbit: Frog-Themed Reddit (IN PROGRESS)',
-    tags: [
-      'React',
-      'Tailwind CSS',
-      'MongoDB',
-      'Mongoose',
-      'Express',
-      'NodeJS',
-      'Vercel'
-    ],
-    description: 'A Frog-themed Reddit social media clone. Inspired by the recent Reddit API news.',
-    images: [
-      '/images/Ribbit.png'
-    ],
-    github: 'https://github.com/Lizette-Dimalanta/Ribbit',
-    website: 'https://ribbit-alpha.vercel.app/'
-  },
-  {
     title: 'Full-Stack Barbeque Planner Application',
     tags: [
       'React',
