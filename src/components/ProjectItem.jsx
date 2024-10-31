@@ -12,7 +12,7 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
         window.open(website)
     }
 
-  return (
+return (
     <div className='px-5 pt-3'>
         <div className='max-w-[1040px] m-auto flex flex-col md:flex-row py-7 border-2 border-slate-200/50 rounded-lg px-7 shadow-sm'>
             <div className='md:w-2/5 self-center min-w-[40%]'>
@@ -60,7 +60,7 @@ const ProjectItem = ({ title, tags, description, images, github, website }) => {
             </ol>
         </div>
     </div>
-  )
+)
 }
 
 export default ProjectItem

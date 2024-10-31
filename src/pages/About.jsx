@@ -79,6 +79,9 @@ const About = () => {
           className='overflow-hidden rounded-sm'
         >
           <div>
+            <img src='/images/Friends.png' alt='Friends' />
+          </div>
+          <div>
             <img src='/images/Hiking.jpeg' alt='Hiking' />
           </div>
           <div>

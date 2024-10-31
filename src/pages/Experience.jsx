@@ -24,6 +24,12 @@ const data = [
       '• Extensive experience with Azure Cloud services and Jamf Pro MDM.',
       '• Utilising my keen interest in learning to assist IT Technicians in level 2 Support during understaffed periods.',
       '• Updated and configured Halo PSA workflows while building upon existing documentation.'
+    ],
+    carousel: [
+      {
+        image: '/images/qbox-Developer.png',
+        caption: 'qbox Team'
+      }
     ]
   },
   {
@@ -42,6 +48,12 @@ const data = [
       '• Prepared and managed various correspondence and documentation, overseeing records management and liaising with both internal and external stakeholders.',
       '• Assisted with procurement processes, coordinated scheduling of appointments, and monitored multiple inboxes.',
       '• Collaborated with the team to facilitate efficient and effective issue resolution.'
+    ],
+    carousel: [
+      {
+        image: '/images/VBA-Support-Officer.png',
+        caption: 'Data Entry Officer Team'
+      }
     ]
   },
   {
@@ -60,6 +72,12 @@ const data = [
       '• Creating and maintaining database records for all new applicants and existing practitioners.',
       '• Ensuring activities are carried out in line with relevant legislative framework in accordance with operational guidelines.',
       '• Providing assistance with electronic and telephone enquiries from external and internal stakeholders.'
+    ],
+    carousel: [
+      {
+        image: '/images/VBA-Data-Entry.png',
+        caption: 'Data Entry Officer Team'
+      }
     ]
   },
   {
@@ -105,7 +123,7 @@ const data = [
     position: 'ACTING DAIRY MANAGER',
     duration: '[ Sep 2018 - Oct 2021 ]',
     tags: [
-      'POS'
+      'POS', 'Leadership', 'Time Management'
     ],
     details: [
       '• Primary support for transitioning management and understaffed roles throughout the duration of COVID-19.',
@@ -130,7 +148,7 @@ const data = [
     position: 'CREW MEMBER',
     duration: '[ Dec 2015 - Jul 2019 ]',
     tags: [
-      'POS'
+      'POS', 'Time Management'
     ],
     details: [
       '• Developed customer service and time management skills in a dynamic and fast-paced environment.',
