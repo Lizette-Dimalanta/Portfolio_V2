@@ -3,9 +3,51 @@ import ExperienceItem from '../components/ExperienceItem'
 
 const data = [
   {
+    year: 2024,
+    company: '/ qbox',
+    position: 'Developer',
+    duration: '[ Jan 2024 - Oct 2024 ]',
+    tags: [
+      'Python',
+      'Bash & Powershell Scripting',
+      'RESTful API',
+      'Agile Methodologies',
+      'Azure Cloud Services',
+      'Jamf Pro MDM',
+      'Halo PSA'
+    ],
+    details: [
+      '• Collaborated with a cross-functional team to design and implement proprietary software, enhancing team efficiency and service delivery.',
+      '• Supported the custom integration of SaaS applications into existing infrastructure, utilising RESTful API.',
+      '• Operated within an Agile framework to ensure iterative progress and adaptability.',
+      '• Collaborated with a diverse range of stakeholders to tailor and implement various internal projects effectively, while leveraging existing interpersonal skills to strengthen relationships.',
+      '• Extensive experience with Azure Cloud services and Jamf Pro MDM.',
+      '• Utilising my keen interest in learning to assist IT Technicians in level 2 Support during understaffed periods.',
+      '• Updated and configured Halo PSA workflows while building upon existing documentation.'
+    ]
+  },
+  {
     year: 2023,
     company: '/ Victorian Building Authority',
-    position: 'DATA ENTRY OFFICER',
+    position: 'SUPPORT OFFICER | Audits & Inspections',
+    duration: '[ Nov 2023 - Jan 2024 ]',
+    tags: [
+      'Microsoft 365',
+      'Microsoft Dynamics CRM',
+      'Salesforce',
+      'Cisco'
+    ],
+    details: [
+      '• Delivered comprehensive administrative support to the Audits and Investigatory team.',
+      '• Prepared and managed various correspondence and documentation, overseeing records management and liaising with both internal and external stakeholders.',
+      '• Assisted with procurement processes, coordinated scheduling of appointments, and monitored multiple inboxes.',
+      '• Collaborated with the team to facilitate efficient and effective issue resolution.'
+    ]
+  },
+  {
+    year: 2023,
+    company: '/ Victorian Building Authority',
+    position: 'DATA ENTRY OFFICER | Processing & Assessment',
     duration: '[ Mar 2023 - Present ]',
     tags: [
       'Microsoft 365',
