@@ -73,7 +73,7 @@ const Home = ( ) => {
       {animationsComplete && (
         <div className='font-Roboto-Mono font-semibold text-white text-2xl flex place-content-center sm:place-content-start pt-96 sm:pt-44 sm:pl-24'>
           <div className='max-w-[1040px] font-Inter text-white space-x-4'>
-                <a href={'/Resume - Lizette Dimalanta.pdf' }
+                <a href={'/Resume-Lizette Dimalanta.pdf' }
                   onClick={resumeNavigation}
                   className="inline-block font-Roboto-Mono font-semibold text-white text-md p-[9.5px] bg-slate-800 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-400 hover:scale-110 transition-all ease-in-out duration-300">
                   <ImProfile size={32}/>
