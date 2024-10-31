@@ -5,7 +5,7 @@ const data = [
   {
     year: 2024,
     company: '/ qbox',
-    position: 'Developer',
+    position: 'DEVELOPER',
     duration: '[ Jan 2024 - Oct 2024 ]',
     tags: [
       'Python',
