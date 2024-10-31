@@ -17,7 +17,7 @@ const Footer = () => {
         <div className='pt-10'>
             <div className='w-screen m-auto px-5 bg-slate-800 py-10 flex justify-center'>
                 <div className='max-w-[1040px] font-Inter text-white space-x-4'>
-                    <a href='/Resume - Lizette Dimalanta.pdf' 
+                    <a href='src/assets/Resume-Lizette-Dimalanta.pdf' 
                         onClick={resumeNavigation}
                         className="inline-block font-Roboto-Mono font-semibold text-white text-md p-[9.5px] bg-slate-700 rounded-md shadow-md hover:bg-slate-900 hover:text-sky-400">
                         <ImProfile size={32}/>
@@ -33,7 +33,7 @@ const Footer = () => {
                         <TfiGithub size={35}/>
                     </a>
                     <h3 className='text-start text-xs pt-5 text-white/50'>
-                        ©2023 Lizette Dimalanta
+                        ©2024 Lizette Dimalanta
                     </h3>
                 </div>
             </div>
